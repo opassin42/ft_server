@@ -6,8 +6,10 @@ Developer: opassin
 
 Mail: opassin@student.42.fr 
 
-[COMMANDS]
+[COMMANDS LIST]
+
 ALL THESE COMMANDS ARE SPECIFIED IN THE MAKEFILE
+
 
 sudo make build : Build the docker image from the Dockerfile
 
