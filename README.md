@@ -6,7 +6,7 @@
 *Mail: opassin@student.42.fr* 
 
 
-**[COMMANDS LIST]**
+									**[COMMANDS LIST]**
 
 *all these commands are specified in the Makefile*
 
