@@ -4,4 +4,11 @@
 
 Developer: opassin
 
-Mail:      opassin@student.42.fr 
+Mail: opassin@student.42.fr 
+
+[COMMANDS]
+ALL THESE COMMANDS ARE SPECIFIED IN THE MAKEFILE
+
+sudo make build : Build the docker image from the Dockerfile
+sudo make run   : Run the image in an isolated container
+sudo make log   : Print details of the last build
