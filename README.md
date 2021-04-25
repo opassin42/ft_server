@@ -11,46 +11,52 @@
 						*all these commands are specified in the Makefile*
 
 
-- Build the docker image from the Dockerfile:
+- Build the docker image from the Dockerfile :
 	>$ sudo make build
 
-- Run the image in an isolated container
+- Run the image in an isolated container :
 	>$ sudo make run
 
--sudo make log   : Print details of the last build.
+- Print details of the last build :
+	>$ sudo make log
 
--sudo make log_monitoring   : Print details log in real time.
+- Print details log in real time :
+	>$ sudo make log_monitoring
 
--sudo make stop_last_ctn	    : Stop the last created container
+- Stop the last created container :
+	>$ sudo make stop_last_ctn
 
--sudo make stop_all_ctn	    : Stop all currents containers
+- Stop all currents containers :
+	>$ sudo make stop_all_ctn
 
--sudo make rm_last_ctn	    : Remove the last container
+- Remove the last container :
+	>$ sudo make rm_last_ctn
 
--sudo make rm_all_ctn	    : Remove all currents containers
+- Remove all currents containers :
+	>$ sudo make rm_all_ctn
 
 
+								**[COMMANDS UTILS]**
+- list all containers :
+	>$ sudo docker ps -a
 
+- list all images :
+	>$ sudo docker images
 
-[COMMANDS UTILS]
-
-sudo docker ps -a 	: list all containers
-
-sudo docker images 	: list all images
-
-sudo docker exec -it “replace by firsts id char.” bash : Enter into container 
+- Enter into container :
+-	>$ sudo docker exec -it “replace by firsts id char.” bash 
 
 				
 
 
-[AUTOINDEX]
+								   **[AUTOINDEX]**
 
 When you’re into the container, launch the script following script by running :
-
+```
 ./enable_autoindex.sh or bash enable_autoindex.sh : autoindex on
 
 ./disable_autoindex.sh or bash disable_autoindex.sh : autoindex off
-
+```
 
 
 
