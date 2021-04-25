@@ -8,7 +8,7 @@
 
 								**[COMMANDS LIST]**
 
-*all these commands are specified in the Makefile*
+						*all these commands are specified in the Makefile*
 
 
 - Build the docker image from the Dockerfile:
