@@ -12,9 +12,10 @@
 
 
 - Build the docker image from the Dockerfile:
->$ sudo make build
+	>$ sudo make build
 
--sudo make run   : Run the image in an isolated container.
+- Run the image in an isolated container
+	>$ sudo make run
 
 -sudo make log   : Print details of the last build.
 
