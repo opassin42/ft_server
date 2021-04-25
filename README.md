@@ -11,7 +11,8 @@
 *all these commands are specified in the Makefile*
 
 
--sudo make build : Build the docker image from the Dockerfile.
+- Build the docker image from the Dockerfile:
+>$ sudo make build
 
 -sudo make run   : Run the image in an isolated container.
 
