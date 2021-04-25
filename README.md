@@ -6,25 +6,28 @@ Developer: opassin
 Mail: opassin@student.42.fr 
 
 
-[COMMANDS LIST]
-all these commands are specified in the Makefile
+**[COMMANDS LIST]**
+
+*all these commands are specified in the Makefile*
 
 
-sudo make build : Build the docker image from the Dockerfile.
+-sudo make build : Build the docker image from the Dockerfile.
 
-sudo make run   : Run the image in an isolated container.
+-sudo make run   : Run the image in an isolated container.
 
-sudo make log   : Print details of the last build.
+-sudo make log   : Print details of the last build.
 
-sudo make log_monitoring   : Print details log in real time.
+-sudo make log_monitoring   : Print details log in real time.
 
-sudo make stop_last_ctn	    : Stop the last created container
+-sudo make stop_last_ctn	    : Stop the last created container
 
-sudo make stop_all_ctn	    : Stop all currents containers
+-sudo make stop_all_ctn	    : Stop all currents containers
 
-sudo make rm_last_ctn	    : Remove the last container
+-sudo make rm_last_ctn	    : Remove the last container
 
-sudo make rm_all_ctn	    : Remove all currents containers
+-sudo make rm_all_ctn	    : Remove all currents containers
+
+
 
 
 [COMMANDS UTILS]
@@ -36,6 +39,7 @@ sudo docker images 	: list all images
 sudo docker exec -it “replace by firsts id char.” bash : Enter into container 
 
 				
+
 
 [AUTOINDEX]
 
